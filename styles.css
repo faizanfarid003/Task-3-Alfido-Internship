@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #3ce2f8, #5dde59);
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #12020dc3;
+    box-shadow: rgba(66, 177, 232, 0.957) 0px 10px 20px, rgba(166, 77, 225, 0.799) 0px 6px 6px;
+    border-radius: 10px;
+    height: 700px;
+    
+}
+
+
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 16px;
+    width: 100%;
+    grid-column: span 4;
+    font-size: 3em; /* Increase the font size */
+    height: 100px; /* Increase the height as needed */
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top:15px;
+}
+
+.btn {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70px;
+    outline: none;
+    font-size: 2.5em;
+}
+
+.btn:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
